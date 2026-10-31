@@ -36,3 +36,12 @@ main{padding-top:0}
 .auth-content form>.primary{height:46px}.login-cancel{font-weight:500}
 
 .preview-refresh{display:inline-flex;align-items:center;gap:5px;padding:4px 7px;border:1px solid #d6dfcf;border-radius:5px;background:transparent;color:#73876b;font-size:10px;line-height:1.4}.preview-refresh:hover{background:#e2e9dc;color:#315c3c;border-color:#a9bea0}
+
+.screen-content.home:has(.sports-login){display:flex;align-items:center;justify-content:center;padding:36px 26px}
+.sports-login{width:100%;max-width:310px}
+.sports-login h2{margin:0 0 30px;font-size:22px;font-weight:650;letter-spacing:-.5px}
+.sports-login-fields{display:grid;gap:10px}
+.sports-login-fields label{font-size:11px;color:#566151}
+.sports-login-fields .input-wrap+label{margin-top:10px}
+.sports-login .sports-button{margin-top:26px}
+.desktop .screen-content.home:has(.sports-login){display:flex;align-items:center;justify-content:center;padding:36px 26px}
